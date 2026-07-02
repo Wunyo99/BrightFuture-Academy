@@ -1,6 +1,8 @@
 import { NavLink, Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "../assets/logo2.png";
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navLinks = [
@@ -25,7 +27,7 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             <Link to="/" className="logo flex items-center gap-3">
-              <img src="./public/logo2.png" className="object-cover" />
+              <img src={logo} className="w-18" />
               <p className="hidden md:block text-2xl font-bold">
                 BrightFuture Academy
               </p>

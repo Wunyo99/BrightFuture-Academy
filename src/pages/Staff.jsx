@@ -1,4 +1,5 @@
 import { Award } from "lucide-react";
+import logo from '../assets/logo2.png'
 
 const Staff = () => {
   const staffMembers = [
@@ -143,7 +144,7 @@ const Staff = () => {
           <p>Meet our dedicated team of educators and professionals</p>
         </div>
         <div className="bg-white w-25 h-25 md:w-46 md:flex items-center md:h-46 me-10 rounded-full hidden ">
-          <img src="./public/logo2.png" className="object-cover" />
+          <img src={logo} className="object-cover" />
         </div>
       </div>
 
