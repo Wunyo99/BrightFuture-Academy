@@ -13,9 +13,9 @@ import {
 const About = () => {
   const [activeAccordionIndex, setActiveAccordionIndex] = useState(null);
 
-  const toggleAccordion = (id) =>{
-    setActiveAccordionIndex(activeAccordionIndex === id ? null : id )
-  }
+  const toggleAccordion = (id) => {
+    setActiveAccordionIndex(activeAccordionIndex === id ? null : id);
+  };
 
   const stats = [
     {
@@ -174,7 +174,7 @@ const About = () => {
           </p>
         </div>
         <div className="bg-white w-25 h-25 md:w-46 md:flex items-center md:h-46 me-10 rounded-full hidden ">
-          <img src="./src/assets/logo2.png" className="object-cover" />
+          <img src="./public/logo2.png" className="object-cover" />
         </div>
       </div>
 

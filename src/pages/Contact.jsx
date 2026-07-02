@@ -78,7 +78,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="bg-white w-25 h-25 md:w-46 md:flex items-center md:h-46 me-10 rounded-full hidden ">
-          <img src="./src/assets/logo2.png" className="object-cover" />
+          <img src="./public/logo2.png" className="object-cover" />
         </div>
       </div>
 
@@ -275,10 +275,10 @@ const Contact = () => {
         </div>
         <div className="w-full h-60">
           <iframe
-          className="w-full h-full"
+            className="w-full h-full"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15882.757682281388!2d-0.24464477388544267!3d5.6128021648733055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf996579ca9ebd%3A0x99822538ef7ed82f!2sAchimota!5e0!3m2!1sen!2sgh!4v1766708197503!5m2!1sen!2sgh"
             width="1200"
-            style={{border: 0}}
+            style={{ border: 0 }}
             height="350"
             allowfullscreen=""
             loading="lazy"
